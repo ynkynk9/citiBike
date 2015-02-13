@@ -1,0 +1,19 @@
+{
+  "name": "citiBike",
+  "version": "0.0.0",
+  "description": "This is a cool map",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.6.3",
+    "ejs": "0.8.5",
+    "errorhandler": "*",
+    "express": "^4.8.2",
+    "request": "^2.40.0"
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Qiqi"
+}

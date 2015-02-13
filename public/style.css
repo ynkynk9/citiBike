@@ -1,0 +1,123 @@
+#background{
+	background-position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #7497F7;
+}
+
+a:visited {
+    color: lightsteelblue;
+}
+#header {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	padding: 0px;
+	margin: 0px;	
+	font:  45px 'Arial Black', Impact;
+	color: lightsteelblue;
+	z-index: 11;
+}
+
+#subheader {
+	position: absolute;
+	top: 25px;
+	left: 420px;
+	padding: 0px;
+	margin: 0px;
+	font:  italic 30px 'Times New Roman';
+	color: #7497F7; /*colors used on http://water.chemistry2011.org/web/iyc: #B5F0FF; #009DDC */
+	z-index: 11;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #bbb;
+}
+form{
+	position: absolute;
+	
+
+}
+#map {
+    position: absolute;
+    background: #444;
+    top: 0px;
+    left: 0px;
+
+}
+#slider{
+	position: absolute;;
+	top: 750px;
+	width: 1250px;
+	height: 10px;
+	color: white;
+	opacity: 0.5;
+}
+#source{
+	font-size :23px;
+
+}
+#time{
+	position: absolute;
+	font-size: 40px;
+	font-family: Time new Roman;
+	font-style: bold;
+	left: 900px;
+}
+#pie {
+	position: absolute;
+	top: 40px;
+	left: 600px;
+	width: 200px;
+	text-align: center;
+	z-index: 10;
+    opacity: 0;
+}
+#pieOne {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+}
+#theNumber {
+    position: absolute;
+    left: 242px;
+    top: 52px;
+    width: 220px;
+    text-align: right;
+    z-index: 10;
+	opacity: 0;
+}
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 100px;                  
+  height: 40px;                 
+  padding: 2px;             
+  font: 15px bold,sans-serif; 
+  color: black;       
+  background: lightsteelblue;   
+  opacity: 0.3;
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+div.pie{
+	position: absolute;
+	top: 40px;
+	left: 600px;
+	width: 200px;
+	text-align: center;
+	z-index: 10;
+    opacity: 1;
+
+}
+.ring {
+  fill: none;
+  stroke: #486bf7;
+}
